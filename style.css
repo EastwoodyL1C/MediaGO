@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.col-1 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 1 1 auto;
+    height: 30px;
+}
+.col-2 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(50% - 30px);
+    height: 30px;
+}
+.col-3 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(33.333% - 30px);
+    height: 30px;
+}
+.col-4 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(25% - 30px);
+    height: 30px;
+}
+.col-5 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(20% - 30px);
+    height: 30px;
+}
+.col-6 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(16.67% - 30px);
+    height: 30px;
+}
+.col-7 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(14.29% - 30px);
+    height: 30px;
+}
+.col-8 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(12.5% - 30px);
+    height: 30px;
+}
+.col-9 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(11.11% - 30px);
+    height: 30px;
+}
+.col-10 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(10% - 30px);
+    height: 30px;
+}
+.col-11 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 0 1 calc(9.09% - 30px);
+    height: 30px;
+}
+.col-12 {
+    background: rgba(255, 0, 0, 0.3);
+    flex: 1 1 auto;
+    height: 30px;
+}
